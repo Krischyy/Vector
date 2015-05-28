@@ -1,0 +1,32 @@
+﻿Build started 28.5.2015 г. 19:17:06 ч..
+     1>Project "C:\Users\krischyy\Desktop\vector\vector\vector.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\vector.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\krischyy\desktop\vector\vector\Vector.h(267): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\krischyy\desktop\vector\vector\Vector.h(265) : while compiling class template member function 'void Vector<T>::erase(size_t)'
+                 with
+                 [
+                     T=int
+                 ]
+                 main.cpp(30) : see reference to class template instantiation 'Vector<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\krischyy\Desktop\vector\Debug\vector.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\vector.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\krischyy\Desktop\vector\Debug\vector.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\krischyy\Desktop\vector\Debug\vector.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Users\krischyy\Desktop\vector\Debug\vector.exe not found or not built by the last incremental link; performing full link
+         vector.vcxproj -> C:\Users\krischyy\Desktop\vector\Debug\vector.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\krischyy\Desktop\vector\Debug\vector.exe;#1" /manifest Debug\vector.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\vector.unsuccessfulbuild".
+         Touching "Debug\vector.lastbuildstate".
+     1>Done Building Project "C:\Users\krischyy\Desktop\vector\vector\vector.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06
